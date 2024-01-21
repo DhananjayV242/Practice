@@ -20,6 +20,8 @@ arrayops: driver.o arrayops.o
 %.o: src/%.cc
 	$(CC) $(CFLAGS) $(COPTFLAGS) -o $@ -c $<
 
+run: arrayops
+	./$< array.txt 3
 clean:
 	rm -f core *.o *~ arrayops 
 

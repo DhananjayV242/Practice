@@ -27,7 +27,7 @@ FUNCTIONALITY:
 
 #include "arrayops.hh"
 
-#define VERBOSE 1
+#define VERBOSE 0
 
 // All function prototypes here. Add them in order of declaration. 
 
